@@ -4,9 +4,11 @@ package:
 
 source:
   git_url: https://github.com/Yelp/MOE.git
+  git_tag: v0.2.1
 
 build:
   preserve_egg_dir: yes
+  number: 2
 
 requirements:
   build:
@@ -31,6 +33,14 @@ requirements:
     - colander
     - weberror
     - libstdcplusplus
+    - sphinx_rtd_theme
+    - sphinxcontrib-httpdomain
+    - breathe
+    - simplejson
+    - webtest
+    - pytest
+    - sphinx
+    - testify
 
 test:
   # Python imports
