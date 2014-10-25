@@ -18,7 +18,7 @@ This repository obviously includes recipes for a number of packages other than M
 ### libstdc++
 
 MOE uses C++11 features, which requires a quite modern version of GCC (4.7.3+), and a similarly new version of the runtime c++ standard library, libstd++. The version of libstdc++ distributed with Ubuntu 10.04 and CentOS 6.0 is
-too old to support runtime C++11 code. Therefore, this conda build of MOE depends on 
+too old to support runtime C++11 code. Therefore, this conda build of MOE depends on an external libstdc++ conda package, which povides a more recent library. See [the recipe](https://github.com/rmcgibbo/conda-moe/blob/master/libstdcplusplus/build.sh) for the dirty, dirty hack.
 
 ### building the binaries
 
