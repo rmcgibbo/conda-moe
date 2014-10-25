@@ -1,7 +1,7 @@
 conda-moe
 =========
 
-This repository provides the recipes for building binary MOE packages to be used with the Anaconda Python distribution or other conda environments.
+This repository provides the recipes for building binary packages of [MOE](https://github.com/yelp/moe), a global, black box optimization engine for real world metric optimization, to be used with the Anaconda Python distribution or other conda environments.
 
 The built binaries are available on binstar.org, and can be installed using the following command
 
